@@ -16,9 +16,9 @@ namespace AspNetWebRestApi
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
-            name: "MyProfil",
-            routeTemplate: "api/myprofil/{id}",
-            defaults: new { controller = "myprofil", id = RouteParameter.Optional },
+            name: "Temperature",
+            routeTemplate: "api/temperature/{id}",
+            defaults: new { controller = "temperature", id = RouteParameter.Optional },
             constraints: new { id = "/d+" }
         );   
 
