@@ -13,8 +13,7 @@ namespace AspNetWebRestApi.Models
 
         [StringLength(50)]
         public string city { get; set; }
-
-        
+ 
         public decimal temperature { get; set; }
     }
 }
