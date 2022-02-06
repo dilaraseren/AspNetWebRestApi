@@ -11,7 +11,7 @@ namespace AspNetWebRestApi.Controllers
     public class TemperatureController : ApiController
     {
 
-        public IEnumerable<Weather> Get()  // It's return All Weather List  
+        public IEnumerable<Weather> Get() 
         {
             using (Context context = new Context())
             {
@@ -19,7 +19,7 @@ namespace AspNetWebRestApi.Controllers
             }
         }
 
-        public Weather Get(int Id)   // It's return Weather Base on Weather Id  
+        public Weather Get(int Id)   
         {
             using (Context context = new Context())
             {
@@ -27,6 +27,8 @@ namespace AspNetWebRestApi.Controllers
             }
         }
 
+       
+       
 
 
 
