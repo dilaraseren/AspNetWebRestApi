@@ -10,8 +10,6 @@ namespace AspNetWebRestApi.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Profil Sayfası";
-
             return View();
         }
     }
